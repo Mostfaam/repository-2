@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        jcenter()
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is deprecated; no updates allowed
+        maven {
+            url = "https://zebratech.jfrog.io/artifactory/EMDK-Android/"
+        }
+    }
+}
+rootProject.name = "Chemobarcodescanner"
+include ':app'

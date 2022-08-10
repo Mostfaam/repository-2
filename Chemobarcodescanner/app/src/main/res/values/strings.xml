@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">XECAN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Process barcode request</string>
+    <string name="message_processing_error" formatted="false">Processing failed: %s</string>
+    <string name="message_scanner_id_not_found" formatted="false">Scanner %s not found in database (%s).</string>
+    <string name="menu_settings">Settings</string>
+    <string name="release_name">Release 1</string>
+    <string name="pref_config_title">Configuration</string>
+    <string name="pref_summary_database_ip">Overrides the default database IP address</string>
+    <string name="pref_title_database_ip">Database IP Address</string>
+    <string name="pref_key_database_ip">pref_key_database_ip</string>
+    <string name="message_database_ip_updated" formatted="false">The database IP address has been updated to %s.</string>
+    <string name="message_testing_db_connection" formatted="false">Testing database connection to %s...</string>
+    <string name="message_db_connection_test_success" formatted="false">The connection to the database %s was successfully established.</string>
+    <string name="message_db_connection_test_failed" formatted="false">The connection to the database %s could not be established: please check the IP address and try again.</string>
+    <string name="message_invalid_ip_address" formatted="false">%s is not a valid IP address.</string>
+    <string name="wallpaper_instructions">Tap image to set landscape wallpaper</string>
+    <string name="menu_system_settings">System Settings</string>
+    <string name="menu_restart">Restart</string>
+
+    <string name="pref_config_about">About</string>
+    <string name="pref_title_version">Application Version</string>
+    <string name="pref_key_version">pref_key_version</string>
+    <string name="label_logout">Logout</string>
+</resources>
